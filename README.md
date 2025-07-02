@@ -12,3 +12,6 @@
 **Last Updated:** 2025-07-02
 **Author:** Michelle Dang   
 **Category:** Raspberry Pi → Security  
+
+## Obstacles
+Could not delete pi user due to still being in use **skip to 6.9**
