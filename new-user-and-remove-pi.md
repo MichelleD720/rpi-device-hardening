@@ -26,21 +26,17 @@ Now hit enter. Nothing will change
 6.6 Do crtl + w to pull up the search function and type in autologin-user=
 ![{9515CDA1-9C07-4B49-96CE-B6F7B01D891D}](https://github.com/user-attachments/assets/f8baf519-bc22-4f2b-9a70-16b4ffad2a18)
 
-6.7 Change pi to your user name. Then do Crtl+ X -> Crtl +Y -> enter 
+6.7 Change pi to your user name. Then do Crtl+O for write out to save changes. Then hit enter. Followed by Crtl+ X 
 ![{665E30D0-AC90-40BB-86F9-5E91112E44B8}](https://github.com/user-attachments/assets/ad6959fd-a077-4faf-b846-5418b4ae32d1)
 
 6.8 finally do sudo reboot and try to ssh into your new user 
 
 
 ## How to remove the default pi 
-6.9 first ssh into the new user account you just created. Then type in sudo userdel -r pi . This will delete the pi user. If it does not then go to 6.13
+6.9 first ssh into the new user account you just created. Then type in sudo userdel -r pi . This will delete the pi user. If it does not then go to 6.10
 ### WARNING if you attempt to delete pi while ssh into the pi user you will break the system.Same principle for any account deletion. Do not delete the user you are currently logged into.
 
-
-
-
-
-6.13 ssh into your new user account. Then sudo raspi-config->L6-> 1 -> then you want to S6 and turn off autologin 
+6.10 ssh into your new user account. Then sudo raspi-config->1-> S6 and turn off autologin,reboot, and try to redo 6.9
 ![{831B401A-FA59-44CD-BAFC-8563C5B10919}](https://github.com/user-attachments/assets/cd1b779f-a0ee-4cda-bc16-f153b97b3582)
 
 
