@@ -1,13 +1,7 @@
 # rpi-device-hardening
 **Includes Articles** 
-- [KB-RPI-0006 new-user-and-remove-pi]
-- [KB-RPI-0007 system-updates-and-upgrades]
-- [KB-RPI-0008 firewall-ufw-setu]
-- [KB-RPI-0009 disable-ssh-password-login]
-- [KB-RPI-0010 ssh-key-only-login]
-- [KB-RPI-0011 install-and-configure-fail2ban]
-- [KB-RPI-0012 set-up-vpn-with-wireguard]
-- [KB-RPI-0013 disable-unused-services]
+- [KB-RPI-0006 new-user-and-remove-pi](https://github.com/MichelleD720/rpi-device-hardening/blob/main/new-user-and-remove-pi.md)
+- [KB-RPI-0007 new-pwd-and-hostname.md](https://github.com/MichelleD720/rpi-device-hardening/blob/main/new-pwd-and-hostname.md)
 
 **Last Updated:** 2025-07-02
 **Author:** Michelle Dang   
